@@ -1,6 +1,7 @@
 # LiveSync
 
 **Note**:- Ideally this should be used with Webhooks, but I do not have the access to those.
+
 **LiveSync** is a sample **experimental** project of running [Liveblocks](liveblocks.io) client on cloudflare's [Workers](https://workers.cloudflare.com/) + [durable objects](https://developers.cloudflare.com/workers/learning/using-durable-objects/). it can be used in many scenarios, in this example we're syncing are todos near realtime in our postgres ([supabase](https://supabase.com/)) database.
 
 ## To Run It yourself locally or on workers.
